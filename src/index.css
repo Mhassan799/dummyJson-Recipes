@@ -1,0 +1,51 @@
+p{
+  font-size: 12px;
+  margin: 0px 0px 0px 0xp !important;
+
+}
+h5{
+  margin: 0px 0px 0px 0xp !important;
+
+  
+}
+h3{
+  margin: 0px 0px 0px 0xp !important;
+  
+}
+body{
+  background-color: rgb(240, 219, 231);
+}
+
+
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 20px; /* Adjust the gap value as needed */
+}
+
+.week-button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid  #004370;
+  border-radius: 5px;
+  color: #004370;
+  margin-bottom: 10px; /* Add margin to the bottom of each button */
+}
+
+.week-button.selected {
+  background-color: #004370;
+  color: white;
+}
+:where(.css-dev-only-do-not-override-1pg9a38).ant-btn-primary{
+  background-color: white;
+  border: 1px solid #004370;
+  color:#004370 !important;
+}
+:where(.css-dev-only-do-not-override-1pg9a38).ant-btn-primary:hover{
+  background-color: #004370;
+  color:#ffff
+}
